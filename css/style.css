@@ -40,7 +40,7 @@ section h1 {
   background: url(https://www.nxworld.net/example/css-scroll-down-button/bg07.jpg) center center/cover no-repeat; }
 
 #section08 {
-  background: url(https://www.nxworld.net/example/css-scroll-down-button/bg08.jpg) center center/cover no-repeat; }
+  background: url(https://www.nxworld.net/example/css-scroll-down-button/bg05.jpg) center center/cover no-repeat; }
 
 .demo a {
   position: absolute;
@@ -167,5 +167,32 @@ section h1 {
   background-color: #fff;
   border-radius: 100%;
   box-sizing: border-box; }
+
+  @keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 6s infinite;
+     -moz-animation: flickerAnimation 6s infinite;
+     -o-animation: flickerAnimation 6s infinite;
+      animation: flickerAnimation 6s infinite;
+  }
 
 /*# sourceMappingURL=style.css.map */
