@@ -13,7 +13,8 @@
 //
 // h4{
 //   color: lightBlue; }
-
+@import "bulma/sass/utilities/_all";
+@import "bulma/sass/grid/columns";
 
 @import url(https://fonts.googleapis.com/css?family=Josefin+Sans:300,400);
 * {

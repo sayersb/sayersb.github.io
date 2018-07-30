@@ -2,7 +2,11 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Bulma!</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.1.0/js/all.js"></script>
+  </head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="./js/app.js" charset="utf-8"></script>
     		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -16,8 +20,42 @@
 <div class="item" data-aos="flip-up">8</div>
 <div class="item" data-aos="flip-down">9</div> -->
 
+<nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand has-background-black">
+    <a class="navbar-item" href="/">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Fifa_World_Cup_Russia_2018_logo.png/1597px-Fifa_World_Cup_Russia_2018_logo.png" alt="Russia 2018 World Cup Predictor" width="145" height="40">
+    </a>
 
+    <a role="button" class="navbar-burger" data-target="navMenu" aria-label="menu" aria-expanded="false">
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+      <span aria-hidden="true"></span>
+    </a>
+  </div>
 
+  <div class="navbar-menu has-background-black" id="navMenu">
+    <div class="navbar-end">
+      <a href="/keyplayers" class="navbar-item">
+        Key players gonna play
+      </a>
+      <a href="/keyplayers/new" class="navbar-item">
+        New key player creator
+      </a>
+      <a href="/toptens" class="navbar-item">
+        Top 10 info
+      </a>
+      <a href="/toptens/new" class="navbar-item">
+        New Top 10
+      </a>
+      <a href="/botrs" class="navbar-item">
+        Best of the rest info
+      </a>
+      <a href="/botrs/new" class="navbar-item">
+        New Best of the rest
+      </a>
+    </div>
+  </div>
+</nav>
 <section id="section06" class="demo">
   <h1>Brad<span class="animate-flicker">(ley)</span> Sayers Portfolio</h1>
   <a href="#section07"><span></span>Projects</a>
